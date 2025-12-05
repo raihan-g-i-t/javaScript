@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#btn{
+    height: 75px;
+    width: 200px;
+    background-color: cadetblue;
+    margin: 20% 45%;
+    border: none;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
