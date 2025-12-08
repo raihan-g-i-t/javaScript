@@ -4,8 +4,13 @@
 }
 
 body{
-    background-color: #355070;
+    background-color: #504746;
     text-align: center;
+}
+
+#heading{
+    margin-top: 1rem;
+    color: #BFADA3;
 }
 
 .container{
@@ -28,5 +33,19 @@ body{
 .box{
     height: 18vh;
     width: 18vh;
-    border: #6D597A 10px;
+    border: none;
+    font-size: 12vh;
+    border-radius: 1rem;
+    color: #B89685;
+    background-color: #B6244F;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    background-color: black;
+    border: none;
+    border-radius: 0.8rem;
 }
