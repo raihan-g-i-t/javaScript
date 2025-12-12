@@ -22,11 +22,17 @@ boxes.forEach((box) =>{
             box.innerText = "x";
             turnO = true;
         }
+        box.disabled = true;
     });
+
+    checkWinner = () => {
+
+    }
 });
 
 resetBtn.addEventListener("click", ()=>{
     boxes.forEach((box) => {
         box.innerText = null;
+        box.disabled = false;
     });
 });
