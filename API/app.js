@@ -11,4 +11,3 @@ const getJokes = async () => {
 };
 
 button.addEventListener("click", getJokes);
-// button.addEventListener("click", getJokes);
